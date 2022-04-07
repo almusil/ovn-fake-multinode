@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xe
 
 [ $EUID -eq 0 ] || { echo 'must be root' >&2; exit 1; }
 
